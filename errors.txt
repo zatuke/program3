@@ -1,0 +1,1 @@
+the only functional error found is the branch statement in iglooscore2 in the main as the arg==null will never be hit as there is no way to pass a null string through xml without external packages such as xsi:nul. so this counts as an invalid input.
