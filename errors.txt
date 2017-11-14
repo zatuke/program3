@@ -1,1 +1,3 @@
-the only functional error found is the branch statement in iglooscore2 in the main as the arg==null will never be hit as there is no way to pass a null string through xml without external packages such as xsi:nul. so this counts as an invalid input.
+first functional error found is the branch statement in iglooscore2 in the main as the arg==null will never be hit as there is no way to pass a null string through xml without external packages such as xsi:nul. so this counts as an invalid input.
+
+the second functional error is that the igloo 1 program when computing the overall score will take the first and third arguments and add them when the second and third are the highest.
